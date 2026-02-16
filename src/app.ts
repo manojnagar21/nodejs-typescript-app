@@ -5,6 +5,7 @@ import helmet from "helmet";
 import morgan from "morgan";
 
 import routes from "./routes/index.js";
+import userRoutes from "./routes/user.routes.js";
 import { errorHandler } from "./middlewares/errorHandler.js";
 
 const app: Application = express();
@@ -21,6 +22,7 @@ app.use(morgan("dev"));
 
 // Routes
 app.use("/api", routes);
+app.use("/api/users", userRoutes);
 
 // error handling
 app.use(errorHandler);

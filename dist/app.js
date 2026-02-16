@@ -2,8 +2,8 @@ import express from "express";
 import cors from "cors";
 import helmet from "helmet";
 import morgan from "morgan";
-import routes from "./routes/index.ts";
-import { errorHandler } from "./middlewares/errorHandler.ts";
+import routes from "./routes/index.js";
+import { errorHandler } from "./middlewares/errorHandler.js";
 const app = express();
 // Security middlewares
 app.use(helmet());

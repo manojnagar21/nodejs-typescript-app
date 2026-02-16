@@ -1,0 +1,1 @@
+{"version":3,"file":"health.controller.js","sourceRoot":"","sources":["../../src/controllers/health.controller.ts"],"names":[],"mappings":"AAEA,MAAM,CAAC,MAAM,WAAW,GAAG,CAAC,IAAa,EAAE,GAAa,EAAE,EAAE;IACxD,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC;QACjB,MAAM,EAAE,IAAI;QACZ,MAAM,EAAE,OAAO,CAAC,MAAM,EAAE;QACxB,SAAS,EAAE,IAAI,IAAI,EAAE;KACxB,CAAC,CAAC;AACP,CAAC,CAAC"}

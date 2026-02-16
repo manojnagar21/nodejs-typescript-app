@@ -7,7 +7,11 @@ interface User {
 let users: User[] = [];
 
 export const getAllUsers = async () => {
-    return users;
+    // return users;
+    return [
+        { id: 1, name: "John", email: "john@test.com" },
+        { id: 2, name: "Jane", email: "jane@test.com" }
+    ];
 };
 
 
