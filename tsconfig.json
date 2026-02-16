@@ -38,8 +38,8 @@
     
     "jsx": "react-jsx",
     "moduleResolution": "nodenext",
-    "allowImportingTsExtensions": true,
-    "emitDeclarationOnly": true,
+    // "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": false,
     "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
